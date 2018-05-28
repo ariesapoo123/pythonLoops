@@ -1,0 +1,23 @@
+d = eval(input('Enter Dictionary: '))
+
+print(d)
+
+print(type(d))
+
+
+for dic in d:
+    
+	print("%s %d" %(dic,d[dic]))
+
+
+
+output:
+
+Enter Dictionary: {'a':100,'b':75,'c':90, 'd': 100, 'e':95}
+{'a': 100, 'b': 75, 'c': 90, 'd': 100, 'e': 95}
+<class 'dict'>
+a 100
+b 75
+c 90
+d 100
+e 95

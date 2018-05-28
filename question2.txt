@@ -1,0 +1,18 @@
+while True :
+    num = (int(input("enter the integer greater than 1")))
+    if num % 2 == 0:
+        print("Even num")
+    else:
+        print("Odd num")
+
+
+OUTPUT:
+
+enter the integer greater than 14
+Even num
+enter the integer greater than 15
+Odd num
+enter the integer greater than 16
+Even num
+enter the integer greater than 13
+Odd num

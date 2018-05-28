@@ -1,0 +1,40 @@
+list1 = []
+
+count = int(input("enter the no of input needed in the list"))
+
+for i in range(count):
+    
+ list1.append(input("enter the item in the list"))
+
+ 
+print(list1)
+
+
+searchitm = input("enter item to be searched")
+
+
+for itm in list1:
+    
+ if searchitm == itm:
+        
+ list1.discard(itm)
+
+
+print(list1)
+
+
+output:
+
+
+
+enter the no of input needed in the list3
+
+enter the item in the list2
+
+enter the item in the list5
+
+enter the item in the list9
+['2', '5', '9']
+
+enter item to be searched2
+['5', '9']

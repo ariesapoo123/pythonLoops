@@ -1,0 +1,24 @@
+count = 0
+a = []
+b = []
+while count < 5:
+    a.append(int(input("enter integer ")))
+    count = count + 1
+print(a)
+
+for integer in a:
+    sqr = integer * integer
+    b.append(sqr)
+print("the square of the about integer are{}".format(b))
+
+
+OUTPUT
+
+
+enter integer 1
+enter integer 2
+enter integer 3
+enter integer 4
+enter integer 5
+[1, 2, 3, 4, 5]
+the square of the about integer are[1, 4, 9, 16, 25]
